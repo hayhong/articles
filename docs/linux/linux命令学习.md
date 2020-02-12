@@ -2683,9 +2683,3 @@ COMMAND — 进程名称（命令名/命令行）
 -y：终端设备活动情况
 
 -w：输出系统交换活动信息
-
-
-
-微信搜索 **龙跃十二** 或者扫描二维码，即可订阅。
-
-![image-20191230233730073](https://tva1.sinaimg.cn/large/006tNbRwly1gaf6b1aqn1j308g08gmyh.jpg)
