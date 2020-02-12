@@ -1,11 +1,3 @@
-
-
-> 用心分享，共同成长
->
-> 没有什么比每天进步一点点更重要了
-
-本文已收录到我的github:[https://github.com/midou-tech/articles/tree/master/docs/linux](https://github.com/midou-tech/articles/tree/master/docs/linux) ，欢迎star和issues。
-
 ###  序言
 
 &emsp;本篇文章主要讲解了一些linux常用命令，主要讲解模式是，命令介绍、命令参数格式、命令参数、命令常用参数示例。由于linux命令较多，我还特意选了一些日常使用较为频繁的命令进行讲解，但还是免不了文章很长，建议大家收藏起来，用到的时候不会了再来阅读。当然学习linux命令最好的方法是学会使用linux自带的man手册，所有linux命令规范和使用细则都会在该手册中讲解的很清楚，我在书写的过程中也是参考该手册和日常使用情况。
