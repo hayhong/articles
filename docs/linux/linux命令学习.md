@@ -178,7 +178,7 @@ Change: 2019-12-21 20:56:34.523761038 +0800
  Birth: -
 ```
 
-### **cat&tac** (Concatenate FILE(s), or standard input, to standard output.)
+### **cat** (Concatenate FILE(s), or standard input, to standard output.)
 
 ####  cat介绍
 
@@ -226,13 +226,7 @@ $ cat -n test  #展示文件内容并且展示行号
      3	-e            等价于 -vE
 ```
 
-###  tac命令与cat命令展示内容相反，不能带行号输出。
 
-```bash
-$ tac test
--e            等价于 -vE
--b, --number-nonblank  对非空输出行编号
--A, --show-all      等价于 -vET
 ```
 
 ###  **mkdir —— Make Directory**
@@ -692,7 +686,7 @@ $ wc -c test.txt
 
 ```
 
-###  date & cal
+###  date
 
 ####  date介绍
 
@@ -809,54 +803,6 @@ $ date '+%X'
 
 ```
 
-####  cal介绍
-
-cal命令可以用来显示公历（阳历）日历。
-
-####  cal参数格式
-
-` cal [-3hjy] [-A number] [-B number] [[month] year]
-     cal [-3hj] [-A number] [-B number] -m month [year]
-     ncal [-3hjJpwy] [-A number] [-B number] [-s country_code] [[month] year]
-     ncal [-3hJeo] [-A number] [-B number] [year]
-     ncal [-CN] [-H yyyy-mm-dd] [-d yyyy-mm]`
-
-####  cal命令参数
-
--1 显示一个月的月历
-
--3 显示系统前一个月，当前月，下一个月的月历
-
--s  显示星期天为一个星期的第一天，默认的格式
-
--m 显示星期一为一个星期的第一天
--j  显示在当年中的第几天（一年日期按天算，从1月1号算起，默认显示当前月在一年中的天数）
--y  显示当前年份的日历
-
-####  cal常用参数示例
-
-```bash
-$ cal
-      十二月 2019
-日 一 二 三 四 五 六
- 1  2  3  4  5  6  7
- 8  9 10 11 12 13 14
-15 16 17 18 19 20 21
-22 23 24 25 26 27 28
-29 30 31
-
-
-$ ncal
-    十二月 2019
-一      2  9 16 23 30
-二      3 10 17 24 31
-三      4 11 18 25
-四      5 12 19 26
-五      6 13 20 27
-六      7 14 21 28
-日   1  8 15 22 29
-
-```
 
 ###  which
 
@@ -1299,7 +1245,7 @@ $grep 'ab|bc' *.log  #支持|语法，匹配含有ab或者bc的文本行
 
 ####  cut介绍
 
-&emsp;这个命令对我来说很有故事，当时我在学完C语言，简单了解了些linux上的基本命令，有次实习面试，面试官问我linux系统用过么，我斩钉截铁的说用过，面试官简单的用vim写了一行hello world。对我说，你怎样通过linux命令吧这个文本里面的hello world搞成十行，并且取出每一列的第七个字符。
+&emsp;这个命令对我来说很有故事，当时我在学完C语言，简单了解了些linux上的基本命令，有次实习面试，面试官问我linux系统用过么，我斩钉截铁的说用过，面试官简单的用vim写了一行hello world。对我说，你怎样通过linux命令把这个文本里面的hello world搞成十行，并且取出每一列的第七个字符。
 
 **当时的我真的是心里一群草泥马跑过，这可难道我了，我沉思了片刻，说只要十行么？多点行么？。当然不行，只要十行，取每行的第七个字符续**沉思了片刻，拿起面试官的电脑就是一顿操作，于是有了我记忆深刻的下面这一行命令。
 
